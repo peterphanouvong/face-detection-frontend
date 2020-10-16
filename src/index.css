@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(86,78,214,1) 0%, rgba(133,253,255,1) 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.form {
+  max-width: 700px;
+  margin: 1rem;
+  background: linear-gradient(315deg, transparent 75%, #5557d4 0)-10px 0,
+    linear-gradient(45deg, transparent 75%, #5557d4 0)-10px 0,
+    linear-gradient(135deg, #372ba7 50%, transparent 0) 0 0,
+    linear-gradient(45deg, #2c1b6a 50%, #221656 0) 0 0 #2c1656;
+  background-size: 20px 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
